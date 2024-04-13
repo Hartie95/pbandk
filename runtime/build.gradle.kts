@@ -12,6 +12,7 @@ plugins {
 description = "Kotlin runtime library for Protocol Buffers. It is built to work across multiple Kotlin platforms."
 
 repositories {
+    mavenCentral()
     google()
 }
 
@@ -41,6 +42,7 @@ kotlin {
     tvosX64()
     tvosSimulatorArm64()
 
+    mingwX64()
     linuxArm64()
     linuxX64()
     macosArm64()
